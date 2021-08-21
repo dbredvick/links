@@ -14,49 +14,51 @@ import {
 const actions = [
   {
     title: "Read my blog",
-    href: "#",
+    href: "https://drew.tech",
     icon: PencilIcon,
-    content: "hello, world",
+    content:
+      "Learning tech and trying to build a profitable side-projects. Plenty of JS web dev content, too.",
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
   },
   {
     title: "Subscribe to my newsletter",
-    href: "#",
+    href: "https://newsletter.drew.tech",
     icon: MailOpenIcon,
-    content: "hello, world",
+    content:
+      "A periodic email about modern web dev, building SaaS apps, tools for helping bootstrappers.",
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
   },
   {
     title: "Follow me on Twitter",
-    href: "#",
+    href: "https://twitter.com/dbredvick",
     icon: UsersIcon,
-    content: "hello, world",
+    content: "Where I test out my blog post ideas first.",
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",
   },
   {
     title: "Check my code on Github",
-    href: "#",
+    href: "https://github.com/dbredvick",
     icon: DesktopComputerIcon,
-    content: "hello, world",
+    content: "Some good code, some bad code, some ugly code.",
     iconForeground: "text-yellow-700",
     iconBackground: "bg-yellow-50",
   },
   {
     title: "Email me",
-    href: "#",
+    href: "mailto:hey@drew.tech",
     icon: MailIcon,
-    content: "hello, world",
+    content: "Need help? Hit me up. ",
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
   },
   {
     title: "DM me on Twitter",
-    href: "#",
+    href: "https://twitter.com/messages/compose?recipient_id=291449508&welcome_message_id=1383819293045886987",
     icon: ChatIcon,
-    content: "hello, world",
+    content: "Say hello, I'm always down to make new internet friends.",
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",
   },
@@ -81,7 +83,7 @@ function Example() {
             actionIdx === actions.length - 1
               ? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
               : "",
-            "relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
+            "relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500"
           )}
         >
           <div>
@@ -133,10 +135,10 @@ export default function Home() {
         </span>
         <div className="flex items-center justify-center pt-8">
           <span className="prose">
-            <h4 className="text-center px-4 max-w-md ">
-              Engineer at ▲ @Vercel . Tweets about how I build side projects &
-              startups with Next.js + React.
-            </h4>
+            <p className="text-center px-4 max-w-md ">
+              Full stack JS dev @ ▲Vercel. I use React & Next.js to build
+              side-projects & startups.
+            </p>
           </span>
         </div>
         <div />
