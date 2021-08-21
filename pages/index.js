@@ -52,6 +52,14 @@ const actions = [
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
   },
+  {
+    title: "Email me",
+    href: "#",
+    icon: ReceiptRefundIcon,
+    content: "hello, world",
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
+  },
 ];
 
 function classNames(...classes) {
@@ -60,7 +68,7 @@ function classNames(...classes) {
 
 function Example() {
   return (
-    <div className="max-w-5xl rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+    <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
       {actions.map((action, actionIdx) => (
         <div
           key={action.title}
@@ -118,8 +126,8 @@ function Example() {
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center w-full bg-gray-50 pb-6 md:pb-16">
-      <div className="m-auto pt-14">
+    <div className="w-full bg-gray-50 pb-6 md:pb-16">
+      <div className="pt-14">
         <span className="prose">
           <h1 className="text-center">Drew Bredvick</h1>
         </span>
@@ -131,7 +139,8 @@ export default function Home() {
             </h4>
           </span>
         </div>
-        <div className="mt-14">
+        <div />
+        <div className="mt-14 mx-auto max-w-3xl">
           <Example />
         </div>
       </div>
