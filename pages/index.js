@@ -58,7 +58,7 @@ const actions = [
     icon: ChatIcon,
     content: "hello, world",
     iconForeground: "text-rose-700",
-    iconBackground: "bg-rose-50",
+    iconBackground: "bg-sky-50",
   },
 ];
 
