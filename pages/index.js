@@ -3,16 +3,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import {
-  AcademicCapIcon,
-  BadgeCheckIcon,
-  CashIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
   UsersIcon,
   DesktopComputerIcon,
   MailIcon,
   PencilIcon,
   MailOpenIcon,
+  ChatIcon,
 } from "@heroicons/react/outline";
 
 const actions = [
@@ -57,9 +53,9 @@ const actions = [
     iconBackground: "bg-rose-50",
   },
   {
-    title: "Email me",
+    title: "DM me on Twitter",
     href: "#",
-    icon: MailIcon,
+    icon: ChatIcon,
     content: "hello, world",
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
