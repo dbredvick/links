@@ -9,13 +9,17 @@ import {
   ClockIcon,
   ReceiptRefundIcon,
   UsersIcon,
+  DesktopComputerIcon,
+  MailIcon,
+  PencilIcon,
+  MailOpenIcon,
 } from "@heroicons/react/outline";
 
 const actions = [
   {
     title: "Read my blog",
     href: "#",
-    icon: ClockIcon,
+    icon: PencilIcon,
     content: "hello, world",
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
@@ -23,7 +27,7 @@ const actions = [
   {
     title: "Subscribe to my newsletter",
     href: "#",
-    icon: BadgeCheckIcon,
+    icon: MailOpenIcon,
     content: "hello, world",
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
@@ -39,7 +43,7 @@ const actions = [
   {
     title: "Check my code on Github",
     href: "#",
-    icon: CashIcon,
+    icon: DesktopComputerIcon,
     content: "hello, world",
     iconForeground: "text-yellow-700",
     iconBackground: "bg-yellow-50",
@@ -47,7 +51,7 @@ const actions = [
   {
     title: "Email me",
     href: "#",
-    icon: ReceiptRefundIcon,
+    icon: MailIcon,
     content: "hello, world",
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
@@ -55,7 +59,7 @@ const actions = [
   {
     title: "Email me",
     href: "#",
-    icon: ReceiptRefundIcon,
+    icon: MailIcon,
     content: "hello, world",
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
